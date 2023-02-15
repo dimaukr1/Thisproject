@@ -48,7 +48,7 @@
             z-index: 2;
           }
       
-         .header__header__block__end button {
+          .header__header__block__end button {
             float: right;
             padding: 16px 24px;
             border: 0.5px solid gray;
@@ -111,6 +111,7 @@
               top: 9px;
               z-index: 0;
             }
+            
             .header__header__block__end button {
               height: 35px;
               padding: 0 13px;
@@ -121,6 +122,7 @@
               align-items: flex-end;
               border: 1px solid white;
               font-size: 14px;
+            
               
 
             
@@ -128,7 +130,6 @@
             .header__header__block__end  p {
               align-items: center;
             }
-
             .burger__menu::before {
               top: 0;
             }

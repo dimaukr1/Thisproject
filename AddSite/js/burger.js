@@ -1,4 +1,4 @@
-const MenuBurger = document.querySelector(".burger__menu");
+const MenuBurger = document.querySelector(".NavBurger");
 const MenuLeft = document.querySelector(".header__header__menu");
 let thisburger = 1;
 
