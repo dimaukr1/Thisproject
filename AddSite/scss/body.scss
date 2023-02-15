@@ -1,0 +1,199 @@
+.body {
+   * { overflow-y: hidden; }
+    &__header {padding: 0 15%;
+        .header__body__container {
+            max-width: 1300px;
+            margin: 0px auto;
+            
+            padding:0 15px; 
+        }
+        .body__header__content
+        {
+
+        
+           
+    }
+        .body__header__slider {
+            border: 2px solid black;
+            /* width: 100%; */
+            max-width: 100%; 
+            /* height: 300px; */
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .body__header__lineslider {
+            width: 1300px * 5;
+    display: flex;
+    background: orange;
+    position: relative; 
+    left: 0px;
+    transition: all ease 1s;
+        }
+      
+        .body__header__lineslider img {
+           
+           max-width: 100%;
+        }
+   .active1 {
+    left: -1200px * 1;
+   }
+   .active2 {
+    left: -1200px * 2;
+   }
+   .active3 {
+    left: -1200px * 3;
+   }
+   .active4 {
+    left: -1200px * 4;
+   }
+   .active5 {
+    left:-1200px * 5;
+   }
+   .active6 {
+    left: -1200px * 6;
+   }
+   .body__header__flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 60px 0;
+   }
+   .body__header__justify__title {
+    letter-spacing: 9px;
+    font-size: 24px;
+    text-transform: uppercase;
+   }
+   .body__header__justify__title::before {
+    content: "-";
+  margin: 0 20px 0 0;
+ 
+   
+   }
+   .body__header__Big__title {
+    font-size: 45px;
+    width: 284px;
+   }
+   .button {
+    align-self: center;
+   }
+        .slider__left {
+            width: 40px;
+color: violet;
+font-size: 24px;
+border-radius: 50%;
+            height: 40px;
+        }
+        .slider__right {
+            width: 40px;
+            color: violet;
+            font-size: 24px;
+            border-radius: 50%;
+                        height: 40px;
+        }
+    }
+    .body__body__grid {
+        display: grid;
+       grid-template-columns: auto 1fr;
+       grid-template-rows: 1fr;
+        justify-content: space-between;
+        
+    } 
+    .body__body__block__1 {
+        border: 1px solid #000; 
+
+    }
+    .body__body__block__2 {border: 1px solid #000; 
+        
+    }
+    .body__body__block__3 {border: 1px solid #000; 
+       
+    }
+    .body__body__grid div {
+
+    } 
+    .body__body__container {
+        max-width: 1300px;
+        margin: 0px auto;
+            
+       
+    }
+    .body__body__block__1__title {
+        font-size: 36px ;
+        font-weight: 700;
+        line-height: 45px;
+    }
+    .body__body__block__1 {
+        margin: 0 0 100px 0;
+    }
+    .body__body__block__button__flex {
+        display: flex;
+       justify-content: space-between;
+        
+      
+    }
+    .body__body__block__button {
+        background: #666; 
+        padding: 14px 36px;
+        
+    }
+    .body__body__block__button:nth-child(2)
+    {
+        margin: 20px 0 0 0;
+    }
+    .body__body__block__button:nth-child(3)
+    {
+        margin: 20px  0;
+    }
+    .body__body__block__button__hidden {
+    opacity: 0;
+    }
+    .body__body__block__button button {
+        background: #666;
+        color: white;
+        font-size: 16px;
+    }
+    .body__body__block__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .body__body__block__3 {
+        margin: 0 0 0 100px;
+        
+    }
+    .body__body__block__3__title {
+        font-size: 20px;
+        padding: 0 0 8px 0;
+        line-height: 22px;
+       
+    }
+    .body__body__block__3__town {
+        font-size: 16px;
+        line-height: 17px;
+        padding: 0 0 8px 0;
+        font-weight: 400;
+    }
+    .body__body__block__3__year {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #656D72;
+        
+        max-width: 337px;
+    }
+    .body__body__block__3__list  {
+        display: flex;
+        
+        
+       
+    }
+    .body__body__block__3__link {
+       
+        padding: 0 16px 0 0;
+    
+    }
+    .body__body__block__3__link p {
+        border: 0.1px solid #F1F1F1; 
+        padding: 4px 8px;
+    }
+}
